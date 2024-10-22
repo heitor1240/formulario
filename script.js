@@ -13,5 +13,5 @@ document.getElementById('cadastroForm').addEventListener('submit', function(even
     celulaNome.textContent = nome;
     celulaEmail.textContent = email;
 
-    document.getElementById('cadastro').reset();
+    document.getElementById('cadastroForm').reset(); 
 });
